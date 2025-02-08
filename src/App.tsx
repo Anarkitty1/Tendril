@@ -1,13 +1,9 @@
 import React from 'react'
-import EnhancedTendril from './components/Tendril'
+import EnhancedTendril from './components/tendril'
 import './styles/globals.css'
 
 function App() {
-  return (
-    <main className="w-full h-screen overflow-hidden bg-black">
-      <EnhancedTendril />
-    </main>
-  )
+  return <EnhancedTendril />
 }
 
 export default App
